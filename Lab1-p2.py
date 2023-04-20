@@ -6,8 +6,8 @@ import math
 
 sideA=int(input("Side A:" ))
 sideB=int(input("Side B:" ))
-sideC=int(input("Side C:" ))
 
-print(sideA+sideB+sideC)
-print(sideA+sideC / 2)
+
+print(sideA+sideB)
+print(sideA*sideB)
 
