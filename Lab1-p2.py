@@ -4,10 +4,10 @@ print(username,'is',age,'years old: ')
 
 import math
 
-sideA=int(input("Side A:" ))
-sideB=int(input("Side B:" ))
+width=int(input("Width: " ))
+height=int(input("Height: " ))
 
 
-print(sideA+sideB)
-print(sideA*sideB)
+print(width+height)
+print(width*height)
 
