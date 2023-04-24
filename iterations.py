@@ -62,15 +62,15 @@
 
 # iterating through lists
 
-# numbers = [1, 3, 5, 9]
+numbers = [1, 3, 5, 9]
 
-# for item in numbers:
-#     print(item)
+for item in numbers:
+    print(item)
     
-# l = 0 
-# while l < len(numbers):
-#     print(numbers[1])
-#     l += 1
+l = 0 
+while l < len(numbers):
+    print(numbers[1])
+    l += 1
     
 # # Make changes
 
@@ -149,7 +149,7 @@
 
 counter = 0
 
-names = input("Enter the names of 5 people")
+names = input("Enter the names of 5 people: ")
 
 while counter < 5:
     name = input("Please enter a name ")
